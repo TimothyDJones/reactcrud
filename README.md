@@ -2,7 +2,17 @@
 This is the code created for MERN Stack CRUD tutorial from [here](https://appdividend.com/2018/11/11/react-crud-example-mern-stack-tutorial/).
 
 ## Notes
+-To query the MongoDB for documents (records) that have been inserted:
+```bash
+mongo
+use reactcrud
+db.quote.find().pretty()
+```
 
+-To test the Express API directly (without entering data via form), assuming that `server` process is running (`api/nodemon server`):
+```bash
+curl -H "Content-type: application/json" -X POST --data '{"quote": "Test quote", "author": "Test author", "tags": "Test tags"}' http://localhost:4000/quote/add
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -18,6 +18,7 @@ curl -H "Content-type: application/json" \
 ```
 [Reference 1](https://stackoverflow.com/a/7173011)
 [Reference 2](https://tecadmin.net/post-json-data-with-curl-command/)
+[Reference 3](https://gist.github.com/subfuzion/08c5d85437d5d4f00e58)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

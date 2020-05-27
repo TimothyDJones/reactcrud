@@ -1,3 +1,7 @@
+# MERN Stack CRUD Tutorial
+This is the code created for MERN Stack CRUD tutorial from [here](https://appdividend.com/2018/11/11/react-crud-example-mern-stack-tutorial/).
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

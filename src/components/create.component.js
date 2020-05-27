@@ -56,7 +56,7 @@ export default class Create extends Component {
 		return (
 			<div style={{marginTop: 10}}>
 				<h3>Add New Quote</h3>
-				<form>
+				<form onSubmit={this.onSubmit}>
 					<div className="form-group">
 						<label>Quote: </label>
 						<input 

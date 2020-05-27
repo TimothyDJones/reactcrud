@@ -2,7 +2,6 @@
 This is the code created for MERN Stack CRUD tutorial from [here](https://appdividend.com/2018/11/11/react-crud-example-mern-stack-tutorial/).
 
 ## Notes
-- In `create.component.js`, we have to add `onClick` handler to reference `onSubmit` binding to the `submit` form control (button).
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

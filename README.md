@@ -11,7 +11,10 @@ db.quote.find().pretty()
 
 -To test the Express API directly (without entering data via form), assuming that `server` process is running (`api/nodemon server`):
 ```bash
-curl -H "Content-type: application/json" -X POST --data '{"quote": "Test quote", "author": "Test author", "tags": "Test tags"}' http://localhost:4000/quote/add
+curl -H "Content-type: application/json" \
+	-X POST \
+	--data '{"quote": "Test quote", "author": "Test author", "tags": "Test tags"}' \
+	http://localhost:4000/quote/add
 ```
 [Reference 1](https://stackoverflow.com/a/7173011)
 [Reference 2](https://tecadmin.net/post-json-data-with-curl-command/)
